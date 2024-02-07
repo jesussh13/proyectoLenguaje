@@ -1,11 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+    <title>Agencias Montepinar</title>
 </head>
 <body>
-    Hola buenas tardes
+    <section class="contenedor">
+        <header>
+            <h1>Agencias de viajes</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-helmet" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+						<path d="M12 4a9 9 0 0 1 5.656 16h-11.312a9 9 0 0 1 5.656 -16z" />
+						<path d="M20 9h-8.8a1 1 0 0 0 -.968 1.246c.507 2 1.596 3.418 3.268 4.254c2 1 4.333 1.5 7 1.5" />
+					  </svg>Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="#">Explorar</a></li>
+                </ul>
+            </nav>
+            <div class="busqueda">
+                <input type="text" placeholder="Buscar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </header>
+
+        <div class="contenido">
+            <div class="left">
+                <h2>AGENCIA MONTEPINAR</h2>
+                <p>Todos a Rodar quiere facilitar el acceso al mundo de la moto de todo el mundo, desde el que quiere mejorar su conducción para su moto habitual hasta el que desea probar el mundo de la competición. Ofrecemos FORMACIÓN, DIVERSIÓN y COMPETICIÓN</p>
+                <button>Explorar</button>
+
+                <div class="redes">
+                    <a href="https://es-es.facebook.com/Motodesdecero/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fae_quintana"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/escuela_de_motos/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+    
+            <div class="right">
+                <div class="arriba"id="logo">
+                    <img>
+                </div>
+            
+                <div class="contenedor-fotos">
+                    <div class="popular">
+                        Popular:
+                    </div>
+                    <img src="./imagen/49.jpg" alt="moto 49">
+                    <img src="./imagen/a1.jpg" alt="moto a1">
+                    <img src="./imagen/a2.jpg" alt="moto a2">
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>Jesús Sánchez Hornillo</p>
+            <p><a href="mailto:motosalquiler@gmail.com">Correo:motosalquiler@gmail.com</a></p>
+        </footer>
+    </section>
 </body>
 </html>
