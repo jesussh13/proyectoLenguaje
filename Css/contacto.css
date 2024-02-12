@@ -5,7 +5,7 @@
     font-family: 'Nunito';
 }
 body{
-    background: linear-gradient(to top,transparent,rgba(239,46,28,.5)), url(imagen/MOTOS.jpg);
+    background: linear-gradient(to top,transparent,rgba(239,46,28,.5)), url(../imagen/MOTOS.jpg);
     background-size: cover;
     height: 100vh;
     display: flex;
